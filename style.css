@@ -188,6 +188,19 @@ body,html {
   background: white;
 }
 
+/* Text over Post Big Picture */
+
+.post-header-image {
+    width: 100%;
+    margin-top: -5em;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* CSS For Post Thumbnails! */
+
 img.attachment-post-thumbnail.wp-post-image {
 	width: 100%;
 	height: 365px;

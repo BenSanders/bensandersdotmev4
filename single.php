@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 <?php if(has_post_thumbnail() ) { the_post_thumbnail('full'); } ?>
+<div class="post-header-image">
+	<h2><?php the_title(); ?></h2>
+</div>
 <div class="site-container">
 		<div class="left-sidebar">
 			<div class="id-card">

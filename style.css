@@ -378,5 +378,14 @@ img.wp-image-106.size-full.alignnone {
     height: 365px;
   }
 
+  .post-header-image {
+    width: 100%;
+    margin-top: -5em;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
 
 }

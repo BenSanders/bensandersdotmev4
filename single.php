@@ -6,9 +6,9 @@
 <div class="site-container">
 		<div class="left-sidebar">
 			<div class="id-card">
-					<img class="id-card-image" src="wp-content/themes/bensandersdotmev4/images/id-card-image.jpg">
+					<img class="id-card-image" src="/wp-content/themes/bensandersdotmev4/images/id-card-image.jpg">
 				<div class="id-card-content">
-						<img src="wp-content/themes/bensandersdotmev4/images/me.png">
+						<img src="/wp-content/themes/bensandersdotmev4/images/me.png">
 					<div class="site-info">
 						<h2><a href="<?php bloginfo('url'); ?>">Ben Sanders</a></h2>
 						<small><a href="https://twitter.com/thebensanders" target="_blank">@TheBenSanders</a></small>

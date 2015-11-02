@@ -11,6 +11,7 @@
 	<div class="top-bar">
 		<div class="top-bar-inner">
 			<div class="navbar">
+					<li><a href="<?php echo get_settings('home'); ?>">Home</a></li>
 					<li><?php wp_list_pages('sort_column=menu_order&title_li='); ?></li>
 				</ul>
 			</div>

@@ -18,7 +18,7 @@
 			<div class="search-field">
 			<form method="get" action="https://google.com/search">
 				<input type="hidden" name="q" value="site:bensanders.me">
-				<input type="search"><button>Search</button>
+				<input type="search" name="q" value=""><button>Search</button>
 			</form>
 			</div>
 		</div>

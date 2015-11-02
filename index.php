@@ -11,31 +11,31 @@
 						<small><a href="https://twitter.com/thebensanders" target="_blank">@TheBenSanders</a></small>
 					</div>
 				</div>
-				<!-- <ol>
-					<a href="https://www.patreon.com/thebensanders" target="_blank" title="Ben's Patreon!">
-						<li><img src="sleepypatreon.png"></li>
-					</a>
-				</ol> -->
 			</div>
+			<!-- <div class="ad-unit">
+				<img src="wp-content/themes/bensandersdotmev4/images/160x600_uap.gif">
+			</div> -->
 		</div>
 		<div class="right-sidebar">
 		<!-- Wordpress Post Loop Begins -->
 		<?php if (have_posts()) : ?><?php while (have_posts()) : the_post(); ?>
 				<div class="post">
+				<?php 
+						if ( !has_post_thumbnail() ) {
+							
+						} else {
+							the_post_thumbnail();
+						}
+					?>
 					<div class="post-header">
 						<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" alt="blog_post"><?php the_title(); ?></a>
 					</div>
 					<div class="post-content">
-					<?php 
-						if ( has_post_thumbnail() ) {
-							the_post_thumbnail();
-						} 
-					?>
 						<p><?php the_content() ?></p>
 					</div>
-					<div class="post-footer">
+					<!-- <div class="post-footer">
 						<a href="#">Comments(10)</a>
-					</div>
+					</div> -->
 				</div>
 				<?php endwhile; ?>
 			<?php endif; ?>

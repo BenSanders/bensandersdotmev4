@@ -14,12 +14,12 @@
 						<small><a href="https://twitter.com/thebensanders" target="_blank">@TheBenSanders</a></small>
 					</div>
 				</div>
-				<!-- <ol>
-					<a href="https://www.patreon.com/thebensanders" target="_blank" title="Ben's Patreon!">
-						<li><img src="sleepypatreon.png"></li>
-					</a>
-				</ol> -->
 			</div>
+			<!-- <ol>
+				<a href="https://www.patreon.com/thebensanders" target="_blank" title="Ben's Patreon!">
+					<li><img src="sleepypatreon.png"></li>
+				</a>
+				</ol> -->
 		</div>
 		<div class="right-sidebar">
 		<?php if (have_posts()) : ?><?php while (have_posts()) : the_post(); ?>
@@ -31,7 +31,7 @@
 				
 					<p><?php the_content() ?></p>
 				</div>
-				<small><?php the_time('F jS, Y') ?> by <?php the_author() ?> </small>
+				<small style="color: white;"><?php the_time('F jS, Y') ?> by <?php the_author() ?> </small>
 			</div>
 			<?php endwhile; ?>
 

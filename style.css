@@ -72,6 +72,7 @@ body,html {
 
 .navbar  > li {
     display: inline;
+    margin-right: 1em;
 }
 
 .navbar > li > a {
@@ -167,9 +168,19 @@ body,html {
 .post {
     width: 75%;
     margin: 0 auto;
-    background: #fff;
-    padding: 1em;
+    margin-bottom: 4.7em;
+    background: #232937;
     line-height: 1.5;
+}
+
+.post-single { margin-top: 4.6em; }
+
+.post-header-noimage {
+    width: 100%;
+    background: gray;
+    margin-top: 1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .post-header {
@@ -177,11 +188,13 @@ body,html {
     font-weight: bold;
     text-align: center;
     font-size: 36pt;
-    background: white;
+    margin-top: -1.5em;
+    background: #232937;
 }
 
 .post-content {
-  background: white;
+    background: white;
+    padding: 6px;
 }
 
 .post-content p {
@@ -193,6 +206,20 @@ body,html {
 .post-header-image {
     width: 100%;
     margin-top: -5em;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+    background: #232937;
+}
+
+.post-header-noimage {
+    width: 100%;
+    background: gray;
+    margin-top: 1px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     color: white;
     font-size: xx-large;
     text-align: center;
@@ -263,9 +290,9 @@ iframe {
 }
 
 .post a {
-  color: black;
+  color: white;
   text-decoration: none;
-  background: white;
+  text-transform: capitalize;
 }
 
 .post a:hover {
@@ -287,6 +314,7 @@ iframe {
   .right-sidebar {
     float: right;
     width: 79%;
+    margin-top: 4.6em;
   }
 
   .site-container {
@@ -322,6 +350,7 @@ img.wp-image-106.size-full.alignnone {
   .right-sidebar {
       float: right;
       width: 79%;
+      margin-top: 4.6em;
   }
 
 }
@@ -379,6 +408,10 @@ img.wp-image-106.size-full.alignnone {
     height: 365px;
   }
 
+  .post-header {
+    font-size: xx-large;
+  }
+
   .post-header-image {
     width: 100%;
     margin-top: -5em;
@@ -387,7 +420,10 @@ img.wp-image-106.size-full.alignnone {
     text-align: center;
     text-transform: capitalize;
     text-shadow: 2px 2px black;
+    background: #232937;
   }
+
+  .ad-unit { display: none; }
 
 
 }

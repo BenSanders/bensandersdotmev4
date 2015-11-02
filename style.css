@@ -24,7 +24,7 @@ body,html {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 7%;
 }
 
 .left-sidebar {
@@ -292,7 +292,7 @@ iframe {
     width: 1003px;
     height: 100%;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 7%;
   }
 
 }
@@ -372,6 +372,11 @@ img.wp-image-106.size-full.alignnone {
 	     padding: 0; 
 	    line-height: 1.5;
 	}
+
+  img.attachment-full.wp-post-image {
+    width: 100%;
+    height: 365px;
+  }
 
 
 }

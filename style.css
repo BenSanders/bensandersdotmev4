@@ -197,6 +197,7 @@ body,html {
     font-size: xx-large;
     text-align: center;
     text-transform: capitalize;
+    text-shadow: 2px 2px black;
 }
 
 /* CSS For Post Thumbnails! */
@@ -385,6 +386,7 @@ img.wp-image-106.size-full.alignnone {
     font-size: larger;
     text-align: center;
     text-transform: capitalize;
+    text-shadow: 2px 2px black;
   }
 
 
